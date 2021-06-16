@@ -1,0 +1,33 @@
+.third-party-auth {
+    &__wrapper {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    &__btn {
+        width: 100%;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 9px 13px;
+        font-size: 14px;
+        margin-bottom: 16px;
+        background-color: #fcfdff;
+        border: 1px solid #cdd7e5;
+        border-radius: 4px;
+
+        &:last-child {
+            margin-bottom: unset;
+        }
+
+        img {
+            margin-right: 7px;
+        }
+    }
+}
